@@ -16,4 +16,4 @@ main = do
   print "Task 2"
   print (take 10 numbers1)
   let sum = scanl1 (+) numbers1
-  print (take 10 cum_sum)
+  print (take 10 sum)
